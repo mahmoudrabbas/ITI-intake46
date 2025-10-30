@@ -1,0 +1,121 @@
+C++ Advanced Problem-Solving Challenge
+
+⏱ Duration: 7 Hours
+🎯 Level: Upper Intermediate to Advanced
+
+Topics Covered:
+
+• Returning multiple values by reference
+
+• Variadic functions (<cstdarg>)
+
+• Function prototypes
+
+• auto and const usage
+
+• Structs + nested structs + arrays of structs
+
+• Pointers + const pointers
+
+• Templates + template specialization
+
+• Vectors
+
+• Function pointers
+
+• Bonus: Recursion & error handling
+
+Task 1 – Research Data Processor
+
+⏱ Estimated Time: 80 minutes
+
+🎯 Focus: Returning multiple values, function prototypes, const references
+
+Write a program that processes experimental temperature readings.
+• Return min, max, and average using reference parameters.
+• Implement a prototype before main.in.
+• Use auto for result variables.
+Bonus: Handle invalid (negative) readings with exceptions.
+
+Task 2 – Variadic Statistical Engine
+
+⏱ Estimated Time: 60 minutes
+
+🎯 Focus: Variable argument lists with <cstdarg>
+
+Implement a function `analyze(int count, ...)` that prints both average and variance.
+• Support different number of arguments.
+• Extend using template specialization to handle strings for concatenation.
+Bonus: Add validation for zero arguments.
+
+Task 3 – Corporate Hierarchy
+
+⏱ Estimated Time: 80 minutes
+
+🎯 Focus: Struct, nested struct, array of structs, pointers
+
+Model a company using struct Department containing a vector of Employees.
+Each Employee has a name, ID, and salary.
+• Display department with highest total salary.
+• Use const pointers and references in display functions.
+Bonus: Add recursive search by employee name.
+
+Task 4 – Pointer Operations Simulator
+
+⏱ Estimated Time: 60 minutes
+
+🎯 Focus: Pointer arithmetic, const pointers, pointer-to-pointer
+
+Simulate pointer arithmetic manually:
+• Create a pointer to an array and move it th0rough elements.
+• Demonstrate const correctness.
+Bonus: Implement a pointer swap using pointer-to-pointer logic.
+
+Task 5 – Function Template Workshop
+
+⏱ Estimated Time: 70 minutes
+
+🎯 Focus: Template functions, template specialization
+
+Implement `template <typename T> T computeAverage(T arr[], int size)`.
+• Specialize it for strings to return the longest word.
+Bonus: Make it work for vectors too using overloaded version.
+
+Task 6 – Dynamic Student Database
+
+⏱ Estimated Time: 90 minutes
+
+🎯 Focus: Vector + Struct + Template + Function Pointer
+
+Build a menu-driven student database:
+• Add, update, search, and display students.
+• Use a vector of struct Student.
+• Implement menu using array of function pointers.
+Bonus: Add a generic template to find top student by field (grade, age).
+
+Task 7 – Performance Benchmark Analyzer
+
+⏱ Estimated Time: 70 minutes
+
+🎯 Focus: Templates + Struct + References + Exception Handling
+
+Develop a benchmark system that compares execution times for int, double, and string vectors.
+• Return min, max, and average times using references.
+• Handle zero-size vectors via exception.
+Bonus: Use auto and const references effectively.
+
+Bonus Challenge – The Ultimate Function Pointer Arena
+
+⏱ Estimated Time: 45 minutes
+
+🎯 Focus: Function pointers, recursion, templates
+
+Create a simulation where different mathematical functions (add, multiply, divide) are stored in an array of function pointers.
+Allow the user to select an operation and apply it recursively to a vector of numbers.
+
+Wrap-Up & Reflection
+
+• Discuss how templates enhance reusability.
+• Compare passing by reference vs pointer.
+• Explore const correctness with pointers.
+• Evaluate efficiency gains of vectors over arrays.
